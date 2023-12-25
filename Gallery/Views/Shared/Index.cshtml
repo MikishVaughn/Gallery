@@ -1,0 +1,10 @@
+﻿@{
+    string currentController = ViewContext.RouteData.Values["controller"]?.ToString() ?? "Home";
+}
+
+<h2 class="text-center">
+    @currentController Galleries
+</h2>
+
+<partial name="GalleryMenu" />
+

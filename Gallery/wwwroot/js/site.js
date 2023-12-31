@@ -50,15 +50,4 @@ document.addEventListener("DOMContentLoaded", function () {
     };    
 });
 
-function hideCurrentMenuSelection(viewName) {
-    var elements = document.querySelectorAll('.menu-item');
-    elements.forEach(function (element) {
-        if (element.getAttribute('data-viewName') === viewName) {
-            element.style.display = 'none';
-        } else {
-            element.style.display = '';
-        }
-    });
-}
-
 

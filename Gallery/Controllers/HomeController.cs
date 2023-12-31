@@ -1,39 +1,25 @@
+﻿using Microsoft.AspNetCore.Mvc;
 using Gallery.Models;
-using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Gallery.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        protected IActionResult CustomView(string viewName)
+        {
+            ViewData["ViewName"] = viewName;
+            return View();
+        }
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-        public IActionResult Contact()
-        {
-            return View();
-        }
-        public IActionResult TOS()
-        {
-            return View();
-        }
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+        public IActionResult Index() => CustomView("Home");
+        public IActionResult Contact() => CustomView("Contact");
+        public IActionResult Privacy() => CustomView("Privacy");
+        public IActionResult TOS() => CustomView("Terms of Service");
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        public IActionResult Error() =>
+            View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+        
 }

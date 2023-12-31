@@ -6,6 +6,9 @@ body {
     margin: 0;
     font-size: 14px;
     font-weight: 400;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     text-rendering: optimizeLegibility;
 }
 
@@ -62,25 +65,34 @@ img {
 }
 
 .menu-item {
-    width: 200px;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;   
 }
 
-.menu-link {
+.nav-item {
+    width: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.menu-link {    
     text-decoration: none;
     border: 2px solid transparent;
-    border-radius: 5px;
+    border-radius: 4px;
     transition: color 0.3s ease, border-color 0.3s ease, font-weight 0.3s ease;
     padding: 8px;
-    display: inline-block; /* Ensure each menu item is on a new line */
-    text-align: center; /* Center the text within the fixed width */
+    display: inline-block; 
+    text-align: center; 
 }
 
     .menu-link:hover {
-        border-color: greenyellow !important;
+        border-color: Black !important;
         font-weight: bold !important;
     }
 
-    .menu-link.selected {
-        border-color: transparent !important;
+    .menu-link.selected {        
         font-weight: bold !important;
     }

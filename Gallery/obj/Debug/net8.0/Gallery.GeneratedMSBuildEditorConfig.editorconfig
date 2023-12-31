@@ -9,63 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Gallery
 build_property.RootNamespace = Gallery
-build_property.ProjectDir = D:\Projects\Repos\Gallery\Gallery\
+build_property.ProjectDir = D:\Projects\Repos\Illustrate\Illustrate\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Projects\Repos\Gallery\Gallery
+build_property.MSBuildProjectDirectory = D:\Projects\Repos\Illustrate\Illustrate
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Projects/Repos/Gallery/Gallery/Views/Home/Contact.cshtml]
+[D:/Projects/Repos/Illustrate/Illustrate/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Repos/Gallery/Gallery/Views/Home/Index.cshtml]
+[D:/Projects/Repos/Illustrate/Illustrate/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Repos/Gallery/Gallery/Views/Home/Privacy.cshtml]
+[D:/Projects/Repos/Illustrate/Illustrate/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Repos/Gallery/Gallery/Views/Home/TOS.cshtml]
+[D:/Projects/Repos/Illustrate/Illustrate/Views/Home/TOS.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUT1MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Repos/Gallery/Gallery/Views/Shared/Error.cshtml]
+[D:/Projects/Repos/Illustrate/Illustrate/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Repos/Gallery/Gallery/Views/Shared/Galleries.cshtml]
+[D:/Projects/Repos/Illustrate/Illustrate/Views/Shared/Galleries.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEdhbGxlcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Repos/Gallery/Gallery/Views/Shared/Gallery.cshtml]
+[D:/Projects/Repos/Illustrate/Illustrate/Views/Shared/Gallery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEdhbGxlcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Repos/Gallery/Gallery/Views/Shared/GalleryMenu.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEdhbGxlcnlNZW51LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Projects/Repos/Gallery/Gallery/Views/Shared/Index.cshtml]
+[D:/Projects/Repos/Illustrate/Illustrate/Views/Shared/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Repos/Gallery/Gallery/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Projects/Repos/Illustrate/Illustrate/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Repos/Illustrate/Illustrate/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Repos/Gallery/Gallery/Views/_ViewImports.cshtml]
+[D:/Projects/Repos/Illustrate/Illustrate/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Repos/Gallery/Gallery/Views/_ViewStart.cshtml]
+[D:/Projects/Repos/Illustrate/Illustrate/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Projects/Repos/Gallery/Gallery/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-ecyjm3bss7

@@ -76,18 +76,6 @@
     <None Include="wwwroot\Gallery\Demo\Sunsets\Goodbye.webp" />
     <None Include="wwwroot\Gallery\Demo\Sunsets\Our Flag.webp" />
     <None Include="wwwroot\Gallery\Demo\Sunsets\Rainbow.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z04.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z05.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z06.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z07.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z09.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z10.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z11.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z12.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z13.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z14.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z15.webp" />
-    <None Include="wwwroot\Gallery\Demo\Sunsets\z16.webp" />
     <None Include="wwwroot\Gallery\Demo\background.webp" />
   </ItemGroup>
 
@@ -96,6 +84,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\favicon.ico">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\Gallery\Laser\Religious\Fish.svg">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>

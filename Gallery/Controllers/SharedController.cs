@@ -28,10 +28,10 @@ namespace Gallery.Controllers
     public class DemoController : BaseController { }
     public class LaserController : BaseController { }
 
-    // Add more galleries here: (the controller name should be the same as the gallery folder name... wwwroot/{galleryFolder}/{controllerName}
+    // Add more galleries here: (the controller name and the 'galleryfolder/ folderName should be the same)
     //
-    // Example:
-    // Uncomment the line below to create a "Family" controller, then add a folder named "Family" to your galleryFolder containing folders with images.
+    // Example (mv):
+    // Uncomment the line below to create a "Family" controller, then add a folder named "Family" to your 'galleryFolder' with images.
     //
     // public class FamilyController : BaseController { }  
 
